@@ -29,3 +29,6 @@
  
  #See current branch
  git branch
+ 
+ #Add project remotelly
+ git remote add <url_project_git>
