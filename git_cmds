@@ -18,7 +18,7 @@
  
  #Create a project locally
  git init
- 
+ --------------------------------------------------------
  #See status
  git status
  
@@ -30,6 +30,9 @@
  
  #Add and commit
  git commit -am "message"
+ 
+ #Push alterations
+ git push
  
  #See all commits
  git log
