@@ -1,0 +1,6 @@
+[
+{title: 'git course',
+url: 'https://www.youtube.com/watch?v=OuOb1_qADBQ',
+v_pause: '1:04:50/2:35:59'},
+]
+-------------------------------------------
