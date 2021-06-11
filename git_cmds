@@ -7,7 +7,7 @@
  
  #credentials local plain on the disk locally
  git config --global credential.helper store
- pull
+ git pull
  
  #See configurations
  git config user.name
@@ -39,3 +39,12 @@
  
  #Add project remotelly
  git remote add <url_project_git>
+ -----------------------------------
+ #reset alterations
+  3 types: soft, mixed, hard
+  --soft: let return modification without excluding
+  --mixed: equal previous but an step earlier the commit(no adding)
+  --hard: reset all modification up to that point
+  
+  git reset --soft <commit_id_key>
+  
