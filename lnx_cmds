@@ -1,0 +1,5 @@
+#See disk space
+ df -h /
+ 
+ #Reename files
+  mv file_name new_file_name
