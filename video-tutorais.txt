@@ -1,6 +1,9 @@
-[
-{title: 'git course',
-url: 'https://www.youtube.com/watch?v=OuOb1_qADBQ',
-v_pause: '1:04:50/2:35:59'},
-]
+
+#git course,
+https://www.youtube.com/watch?v=OuOb1_qADBQ
+pause: '1:04:50/2:35:59'
 -------------------------------------------
+#promisses
+https://www.youtube.com/watch?v=wTGPhsGJ0sw
+pause: 
+https://www.youtube.com/watch?v=U_eGa7LEsDk
