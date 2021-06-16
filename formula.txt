@@ -1,0 +1,6 @@
+#Search sub string in excel
+=ISNUMBER(FIND(substring,text))
+#Portuguese
+=ÉNÚM(PROCURAR("K";F2))
+------------------------------
+

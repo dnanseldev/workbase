@@ -5,5 +5,7 @@ pause: '1:04:50/2:35:59'
 -------------------------------------------
 #promisses
 https://www.youtube.com/watch?v=wTGPhsGJ0sw
-pause: 
+pause:
+
+assync await
 https://www.youtube.com/watch?v=U_eGa7LEsDk
