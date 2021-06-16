@@ -6,6 +6,10 @@ pause: '1:04:50/2:35:59'
 #promisses
 https://www.youtube.com/watch?v=wTGPhsGJ0sw
 pause:
+<<<<<<< HEAD
 
 assync await
+=======
+#await async 
+>>>>>>> c7dd7c0e6f5e473c8eeaf15c01be754c7006ca21
 https://www.youtube.com/watch?v=U_eGa7LEsDk
