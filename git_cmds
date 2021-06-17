@@ -70,12 +70,25 @@
       
     --Merge branches
       git merge my-branch-name
+	  
+	--Create a remote branch
+      git push -u origin minha-branch	
       
     --Delete a local branch
       git branch -d my-branch-name
     
     --Delete a remote branch
-      git push origin --delete my-branch-name
+      git push origin --delete my-branch-name|git push origin -d minha-branch
+	  
+	--See author of the modification
+	  git blame nome-do-arquivo
+  --------------------------------
+  #Remote repositories
+     --Link local rep to a remote on
+	    git remote add origin https://meu-endereco.com/meu-projeto.git
+		
+     -- Undo conection between local rep to a remote one
+	    git remote rm origin
   --------------------------------
   #Differences
    --See differences
