@@ -51,13 +51,34 @@
   git reset --soft <commit_id_key>
   ---------------------------------
   #branches  
-    --See current branch
+    --See all branch
       git branch
+<<<<<<< HEAD
     
     --Create a new branch
       git branch branch_name
   
+=======
+     
+    --See remote branch
+      git branch -r
+    
+    --Create a new branch
+      git branch branch_name  
+      
+    --Push alterations when the branch does not exists on the remote
+      git push -u origin my-branch-name|git push -u origin HEAD
+    
+    /*First, you must check out the branch that you want to merge another branch into (changes will be merged into this branch). If you're not   already on the desired branch, run this command: git checkout master*/
+      
+    --Merge branches
+      git merge my-branch-name
+>>>>>>> tut_giv
   --------------------------------
+  #Differences
+   --See differences
+     git diff
+    
   
   
   
