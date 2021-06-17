@@ -53,12 +53,9 @@
   #branches  
     --See all branch
       git branch
-<<<<<<< HEAD
     
     --Create a new branch
-      git branch branch_name
-  
-=======
+      git branch branch_name 
      
     --See remote branch
       git branch -r
@@ -73,17 +70,12 @@
       
     --Merge branches
       git merge my-branch-name
-<<<<<<< HEAD
->>>>>>> tut_giv
-=======
       
     --Delete a local branch
       git branch -d my-branch-name
     
     --Delete a remote branch
       git push origin --delete my-branch-name
-        
->>>>>>> tut_giv
   --------------------------------
   #Differences
    --See differences
