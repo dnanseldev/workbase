@@ -53,6 +53,9 @@
   #branches  
     --See current branch
       git branch
+    
+    --Create a new branch
+      git branch branch_name
   
   --------------------------------
   
