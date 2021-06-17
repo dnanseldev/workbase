@@ -1,47 +1,46 @@
-#log into account
- git config --global user.email "dnansel.dev@gmail.com"
- git config --global user.name "dnanseldev"
+ #Configurations
+   --log into account
+     git config --global user.email "dnansel.dev@gmail.com"
+     git config --global user.name "dnanseldev"
  
- #credentials cash
- git config --global credential.helper cache
+   --credentials cash
+     git config --global credential.helper cache
  
- #credentials local plain on the disk locally
- git config --global credential.helper store
- git pull
+   --credentials local plain on the disk locally
+     git config --global credential.helper store
+     git pull
  
- #See configurations
- git config user.name
- git config user.email
+    --See configurations
+      git config user.name
+      git config user.email
  
- #See all configs
- git config --list
+    --See all configs
+      git config --list
  
- #Create a project locally
- git init
- --------------------------------------------------------
+    --Create a project locally
+      git init
+ ----------------------------
  #See status
- git status
- 
+   git status
+ ---------------------------
  #Track all untracked files
- git add -A
+   git add -A
+ ---------------------------
+ #Commit
+   --Commit files
+     git commit -m "message"
  
- #Commit files
- git commit -m "message"
- 
- #Add and commit
- git commit -am "message"
- 
+   --Add and commit
+     git commit -am "message"
+---------------------------- 
  #Push alterations
- git push
- 
+   git push
+ ---------------------------
  #See all commits
- git log
- 
- #See current branch
- git branch
- 
+   git log 
+ ----------------------------------
  #Add project remotelly
- git remote add <url_project_git>
+   git remote add <url_project_git>
  -----------------------------------
  #reset alterations
   3 types: soft, mixed, hard
@@ -50,4 +49,12 @@
   --hard: reset all modification up to that point
   
   git reset --soft <commit_id_key>
+  ---------------------------------
+  #branches  
+    --See current branch
+      git branch
+  
+  --------------------------------
+  
+  
   
