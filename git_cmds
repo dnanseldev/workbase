@@ -67,6 +67,13 @@
       
     --Merge branches
       git merge my-branch-name
+      
+    --Delete a local branch
+      git branch -d my-branch-name
+    
+    --Delete a remote branch
+      git push origin --delete my-branch-name
+        
   --------------------------------
   #Differences
    --See differences
