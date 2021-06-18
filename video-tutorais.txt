@@ -8,3 +8,4 @@ pause:
 
 #await async 
 https://www.youtube.com/watch?v=U_eGa7LEsDk
+pause: '05:59/28:50'
