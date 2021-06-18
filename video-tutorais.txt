@@ -9,3 +9,7 @@ pause:
 #await async 
 https://www.youtube.com/watch?v=U_eGa7LEsDk
 pause: '05:59/28:50'
+-------------------------------------------
+#Encrypting
+https://www.youtube.com/watch?v=1vVIpIvboSg
+pause: 0:56/22:36
