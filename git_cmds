@@ -86,7 +86,7 @@
 	--See author of the modification
 	  git blame nome-do-arquivo
 	  
-	--Add modifications from a local branch to a repository one
+	--Add modifications from a local branch to a remote one
 	  git push origin my-feature-local:feature-remote
   --------------------------------
   #Remote repositories
