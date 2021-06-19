@@ -1,5 +1,29 @@
 #See disk space
  df -h /
  
- #Reename files
-  mv file_name new_file_name
+#Reename files
+ mv file_name new_file_name
+---------------------------
+#See which GUI is installed
+ ls /usr/bin/*session
+ 
+#Detect the presence of Xorg serve
+ type Xorg
+
+#Check xsession
+ ls /usr/share/xsessions/
+
+#See current Desktop Environment you are using
+ echo $XDG_CURRENT_DESKTOP
+
+#Open folder via GUI
+ xdg-open path_name  
+ nautilus path_name
+ gnome-open path_name
+---------------------------
+#Reload .bashrc
+ source ~/.bashrc | . ~/.bashrc
+
+#Reload bash
+ exec bash
+
