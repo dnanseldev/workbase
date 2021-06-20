@@ -16,3 +16,10 @@
 
 --Delete public key
   gpg --delete-keys key_id
+------------------------------------------------------------------------
+#Encrypt files
+  gpg --encrypt --armor -r your_key_emal file_name.txt
+
+#Decrypting files
+  gpg --decrypt encrypeted_file.asc > file_name.txt
+
