@@ -26,4 +26,9 @@
 
 #Reload bash
  exec bash
+-----------------------------
+#See type of file
+ file file_name
+ file -b|-i|-s file_name
+
 
