@@ -12,4 +12,9 @@ pause: '20:08/28:50'
 -------------------------------------------
 #Encrypting
 https://www.youtube.com/watch?v=1vVIpIvboSg
-pause: 0:56/22:36
+pause: '0:56/22:36'
+-------------------------------------------
+#Docker
+https://www.youtube.com/watch?v=umwm2SJZygg
+pause: '11:27/20:35'
+

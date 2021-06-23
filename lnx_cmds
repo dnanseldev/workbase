@@ -30,5 +30,6 @@
 #See type of file
  file file_name
  file -b|-i|-s file_name
-
-
+----------------------------
+#See linux version
+ cat /etc/issue
