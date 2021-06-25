@@ -31,6 +31,9 @@
  
  #Run a named container in interative mode with seldestruction on exit
  $ docker container run -it --name cont_name --rm ubuntu bash | docker run -it --name cont_name --rm ubuntu bash
+
+ #Run in detached way
+ $ docker run -d cont_name
  
  #Exit the container
  $ exit
@@ -46,6 +49,39 @@
  
  #Remove a container
  $ docker rm docker_id
+
+ #Remove with force(in execution)
+ $ docker rm -f container_id(3_first_leters)
+
+#--------------------------------------------------#
+/*Volumes*/ 
+
+#Map volume
+ #ex: -v mysql-db:/var/lib/mysql:ro
+ #mysql-db: named volume in docker host
+ #mysql-db:/var/lib/mysql: directory inside the constainer
+ #ro: optional field, just to inform is it is read only(ro) or read write(rw). Standard is rw
+
+ #Mount syntax
+ #ex: --mount 'type=volume,source=mysql-db,target=var/lib/mysql,readonly'
+
+ #Bind volumes
+ #ex: -v $(pwd)/var/lib/mysql:ro
  
- 
- 
+ #Mount syntax
+ #ex: --mount 'type=volume,source=$(pwd)/mysql,target=var/lib/mysql,readonly'
+
+ /*List volumes*/
+ $ docker volume ls
+
+ #Remove volumes
+ $ docker volume prune
+
+ #Create named volume
+ $ docker volume create volume_name
+
+ #Inspect volume
+ $ docker volume inspect volume_name
+  
+ #Mapping volume complete
+ $ docker run -d --name container_name -v volume_name:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password mysql
