@@ -33,3 +33,6 @@
 ----------------------------
 #See linux version
  cat /etc/issue
+
+#Create a subdirectory with no parent exists still
+ mkdir -p parent_dir/child_dir

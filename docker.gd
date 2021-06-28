@@ -20,7 +20,8 @@
  $ docker search image_name
  
 #Remove an image
- $ docker rmi image_id
+# -f --> with force
+ $ docker rmi -f image_id
  
 #-----------------------------------------------------# 
 #Run a container in interative mode
@@ -37,6 +38,9 @@
  
  #Exit the container
  $ exit
+
+ #Stop a container
+ $ docker stop cont_name|cont_id
  
  #Restart a container
  $ docker start container -ai container_id
@@ -85,3 +89,10 @@
   
  #Mapping volume complete
  $ docker run -d --name container_name -v volume_name:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password mysql
+#------------------------------------------------------#
+ #Buid an image
+ #t --> parameter or image name
+ #. --> current folder
+ $ docker build -t image_name:version . 
+ 
+
