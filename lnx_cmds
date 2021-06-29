@@ -36,3 +36,35 @@
 
 #Create a subdirectory with no parent exists still
  mkdir -p parent_dir/child_dir
+--------------------------------
+#Grep
+ #Search any line that contains the world in filename
+ grep 'word' filename
+ 
+ #Perform a case-insentive search for the word 'bar'
+ grep -i 'bar' file1
+
+ #Look for all files in the current directory and in all of its subdirectories for the word 'httpd'
+ grep -R 'httpd'
+
+ #Search and display the total number of times that the string 'nixcraft' appears in a file named frontpage.md
+ grep -c 'nixcraft' frontpage.md
+
+ #Search for exact word with parameter -w
+ grep -w "boo" file
+
+ #How to use grep to search 2 different words
+ egrep -w 'word1|word2' /path/to/file
+
+ #How do I list just the names of matching files?
+ #Use the -l option to list file name whose contents mention main():
+ grep -l 'main' *.c
+
+ #OR
+ grep -Rl 'main' /path/to/project/dir/
+
+ #Colors option
+ grep --color vivek /etc/passwd
+
+  
+ 
