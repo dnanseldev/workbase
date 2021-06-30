@@ -66,5 +66,8 @@
  #Colors option
  grep --color vivek /etc/passwd
 
+#CHOWN Command
+ # chown usuário arquivo
+ # chown usuário diretório
   
  
