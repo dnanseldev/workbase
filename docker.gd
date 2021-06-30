@@ -42,8 +42,8 @@
  #Stop a container
  $ docker stop cont_name|cont_id
  
- #Restart a container
- $ docker start container -ai container_id
+ #Restart a container(works only in interactive mode -a or -ti)
+ $ docker start -ai container_name|container_id
  
  #List a container in execution
  $ docker ps

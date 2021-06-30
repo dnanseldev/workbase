@@ -1,0 +1,15 @@
+#Cicle restart container
+start a container
+do something
+exit
+restart that same container
+do something more
+exit
+ad infinitum
+#---------------------
+docker run -it --name mycont ubuntu bash
+touch /tmp/file1
+exit
+docker start -ai mycont
+touch /tmp/file2
+exit
