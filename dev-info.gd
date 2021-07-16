@@ -9,3 +9,6 @@ vivaolinux.com.br/dica/Entendento-o-comando-chown
 
 #TESTING INSOMMINIA APP SERVICE
 https://www.youtube.com/watch?v=022dOdiAA8Q
+
+#Docker[Dockerfile]
+https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
