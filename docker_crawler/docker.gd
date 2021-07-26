@@ -47,6 +47,9 @@
 
  #Restart a container
  $ docker restart my_container
+
+ #Exec a container(works only with container in exection)
+ $ docker exec -it container_name comand_name
  
  #List a container in execution
  $ docker ps
@@ -97,5 +100,31 @@
  #t --> parameter or image name
  #. --> current folder
  $ docker build -t image_name:version . 
- 
+#-------------------------------------------------------#
+# Network 
+# List type of network
+ $ docker network ls
 
+# Isolated container
+ $ docker run -d --net none image_name:tag_version
+ #ex: docker run -d --net none alpine:latest
+
+# Inspect type of network
+ $ docker network inspect bridge
+
+# Create a new network
+ $ docker network create --driver bridge net_name
+
+# Put a container into a rede
+ $ docker run -d --name container_name network_name image_name comand_name
+ # Ex: docker run -d --name container3 new_net alpine sleep 1000
+
+# Connect a container into a different network
+ $ docker network connect brigde container_name
+ #Ex: docker network connect bridge container3
+ 
+# Disconnect a container from a network
+ $ docker network disconnect dridge container_name
+ #Ex: docker network disconnect bridge container_name
+
+ 
