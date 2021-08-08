@@ -35,7 +35,7 @@
  cat /etc/issue
 
 #Create a subdirectory with no parent exists still
- mkdir -p parent_dir/child_dir
+ mkdir -p parent_dir/{child_dir01, child_dir02, child_03,...}
 --------------------------------
 #Grep
  #Search any line that contains the world in filename
