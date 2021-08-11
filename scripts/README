@@ -1,0 +1,9 @@
+#Adding a shebang to executable file
+#!/bin/bash
+
+#Become a *.sh executable
+ $ chmod 755 file.sh
+# Then
+ $ ./file.sh
+
+
