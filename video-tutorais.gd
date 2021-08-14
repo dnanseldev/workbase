@@ -22,3 +22,9 @@ pause: '11:27/20:35'
 https://www.youtube.com/watch?v=7ZxYJw9ebaM
 pause: '11:09/18:55'
 
+#Network(sub-network)
+https://www.youtube.com/watch?v=wBUxveZAgco
+pause: '04:37/44:19'
+
+#Sockets
+https://www.youtube.com/watch?v=aV4p6f2MuJc
