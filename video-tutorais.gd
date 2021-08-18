@@ -28,3 +28,5 @@ pause: '04:37/44:19'
 
 #Sockets
 https://www.youtube.com/watch?v=aV4p6f2MuJc
+https://blog.pantuza.com/artigos/o-que-sao-e-como-funcionam-os-sockets
+
