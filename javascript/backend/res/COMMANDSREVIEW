@@ -1,0 +1,2 @@
+# Install nodemon in dev dependecies
+npm install --save-dev nodemon
