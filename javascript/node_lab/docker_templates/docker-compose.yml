@@ -1,0 +1,10 @@
+version: "3.8"
+
+services: 
+  app:
+    image: inodeplay
+    container_name: cnodeplay
+    build: .
+    volumes: 
+      - .:/home/app
+    
