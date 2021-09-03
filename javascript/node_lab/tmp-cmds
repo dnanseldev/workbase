@@ -1,1 +1,5 @@
+# Container
 docker run --name ctnodedev --rm -v ./src:/usr/app -d imgnodedev
+
+# Composer
+docker-compose run app --rm bash

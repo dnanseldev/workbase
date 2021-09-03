@@ -1,8 +1,8 @@
-version: "3.8"
-    services:
-        app:
-          image: imgnodeapp
-          container_name: ctnodeapp
-          build: .
-          volumes:
-            - .:/usr/app
+version: '3.8'
+services:
+  app:
+    image: inodeapp
+    container_name: cnodeapp
+    build: .
+    volumes:
+      - .:/usr/app

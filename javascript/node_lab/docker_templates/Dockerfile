@@ -1,3 +1,9 @@
-FROM node:14.17.5
-WORKDIR /home/app
+FROM node:16-alpine3.11
+
+WORKDIR /usr/app
+
+RUN apk update && \    
+    apk add --no-cache \
+    bash \
+    vim 
 COPY . .
