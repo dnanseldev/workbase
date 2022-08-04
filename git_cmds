@@ -58,6 +58,7 @@
       git branch branch_name 
      
     --See remote branch
+      git remote -v
       git branch -r
     
     --Create a new branch
