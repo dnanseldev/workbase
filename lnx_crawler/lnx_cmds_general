@@ -69,5 +69,8 @@
 #CHOWN Command
  # chown usuário arquivo
  # chown usuário diretório
+ 
+#Suspend
+$ systemctl suspend -i
   
  
