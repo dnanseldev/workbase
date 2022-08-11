@@ -1,0 +1,19 @@
+#Install lm-sensors
+sudo apt-get install lm-sensors
+
+#Activate it
+sudo sensors-detect
+
+#See the temperature
+sudo sensors
+
+#See temperature in Fahrenheit
+sudo sensors -f
+
+#See continually
+sudo watch sensors
+
+#With graphical interface
+sudo apt-get install psensor
+
+

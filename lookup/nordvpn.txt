@@ -1,0 +1,3 @@
+nordvpn login
+nordvpn connect
+nordvpn disconnect
