@@ -68,6 +68,8 @@ ENTRYPOINT["java", "-jar", "/app/classes/product.jar"]
 #---------------------------------------
 # Build the image
 $ docker build -t i_application:1.00 .
+-->Obs: If occur a network error: try this:
+    docker build --network=host -t i_test .
 
 # Run the container mapping local port 8080 from the computer to the one the container 8081 with image_name
 $ docker run -p 8080:8081 i_aplication:1.00
