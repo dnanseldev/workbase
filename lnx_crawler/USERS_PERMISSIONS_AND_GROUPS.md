@@ -24,7 +24,9 @@
  $ sudo delgroup group_name
 
 # Include a User in a Group
- $ sudo adduser user_name group_name
+ $ sudo adduser user_name group_name |
+ $ sudo usermod -aG group_name user_name
+ 
 
 # Remove a User from a Group
  $ sudo deluser username group_name
