@@ -16,6 +16,9 @@
 # Get out Login
  $ logout
 
+# Change a owner from a file or a folder
+ $ chown newuser file_name.txt | chown -R newuser /folder_name 
+
 # ------------- Groups ---------------
 # Add Groups
  $ sudo addgroup group_name
@@ -36,6 +39,17 @@
 
 # See group list
  $ cat /etc/group
+
+# Change a group from a file or folder
+ $ chown user[:group] file_name
+
+# Change user and group from a file
+ $ chown newuser:newgroup file_name
+
+# Change just a group
+ $ chown :newgroup file_name
+
+# Obs: chown command accomplish similar function of chgrp when owner information is not provided.
 
 # ---------------- Permissions -------------
 # Obs: 3 types: Read, Wright and Execute - rwx
