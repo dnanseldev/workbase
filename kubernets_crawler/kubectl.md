@@ -15,5 +15,8 @@ $ kubectl get namespaces
    $ kubectl get pods --namespace=kube-system
 -->Obs: In order to connect to pods in kubernets it's necessary to expose them as services.
 
+# Create alias for kubectl command
+$ alias k="kubectl"
+
 
 
