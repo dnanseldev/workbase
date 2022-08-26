@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+ registry:
+   image: registry:2.7.1
+   ports:
+    - "5000:5000"
+   volumes:
+    - /home/stone/Guides/workbase/registry/data:/var/lib/registry
