@@ -1,17 +1,17 @@
 # Install minikube
 $ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
-sudo dpkg -i minikube_latest_amd64.deb
+ > $ sudo dpkg -i minikube_latest_amd64.deb
 
 # Start your cluster
-$ minikube start --driver=virtualbox
+> minikube start --driver=virtualbox
 
 # Remove a cluster
-$ minikube delete
+> minikube delete
 
 # See status
-$ minikube status
+> minikube status
 
-#-------------------Connect to kubernets Server------------------------------------
+# -------------------Connect to kubernets Server------------------------------------
 
 # See Ip Server
 $ minikube ip
