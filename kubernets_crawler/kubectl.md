@@ -19,10 +19,16 @@
 > Obs: In order to connect to pods in kubernets it's necessary to expose them as services.
 
 # Create alias for kubectl command
-> $ alias k="kubectl"
+>$ alias k="kubectl"
 
 # See kubectl version
-> $ kubectl version
+>$ kubectl version
+
+# See all the components of a cluster
+>$ kubectl get all
+
+# See all the components of a cluster with filter
+>$ kubectl get all | grep pod_name
 
 
 
