@@ -13,3 +13,7 @@
 # Expose deployments
 # Obs --port is optional e refers to external port from the deployment and --target-port refers to the internal port of thecontainer
 > k expose deployment dep-name --port=8080 --target-port=80
+
+# Escale deployments
+ # k scale deployment dep-name --replicas=number_containers
+ > k scale deployment k8s-necomm-dep --replicas=4
