@@ -17,6 +17,14 @@
 |-----------|----------------|-------------|-----------------------------|
 🎉  Opening service default/k8s-necomm-dep in default browser...
 
+# See only URL
+> minikube service k8s-necomm-dep --url
+
+# Expose LoadBalancer service
+# Obs: LoadBalancer service has the same behavior of NodePort service as well
+# k expose deployment dep_name --type=LoadBalancer --port=3000
+> k expose deployment  k8s-necomm-dep --type=LoadBalancer --port=5000
+
 # List services
 > k get services | k get svc
 

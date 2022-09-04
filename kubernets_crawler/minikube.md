@@ -3,7 +3,11 @@ $ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_late
  > $ sudo dpkg -i minikube_latest_amd64.deb
 
 # Start your cluster
-> minikube start --driver=virtualbox
+> minikube start --driver=virtualbox 
+> minikube start --driver=vmware
+
+# Stop minikube
+> minikube stop
 
 # Remove a cluster
 > minikube delete
@@ -22,5 +26,8 @@ $ ssh docker@<IP>
 --> Username: docker Password: tcuser
 
 # Exit Connection
-$ exit
+ $ exit
+
+# minikube dashboard
+> minikube dashboard
 
