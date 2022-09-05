@@ -30,5 +30,8 @@
 # See all the components of a cluster with filter
 >$ kubectl get all | grep pod_name
 
+# Delete all resources
+>$ kubectl delete all --all | k delete all --all
+
 
 

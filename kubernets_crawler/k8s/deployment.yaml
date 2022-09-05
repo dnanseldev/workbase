@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-necomm-dep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: k8s-necomm-dep
+  template:
+    metadata:
+      labels:
+        app: k8s-necomm-dep
+    spec:
+      containers:
+      - name: necomm
+        image: danstonebuilt/necomm:1.0.0
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "250m"
+        ports:
+        - containerPort: 5000
