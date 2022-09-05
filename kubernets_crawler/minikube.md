@@ -4,7 +4,7 @@ $ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_late
 
 # Start your cluster
 > minikube start --driver=virtualbox 
-> minikube start --driver=vmware
+> minikube start --driver=kvm2
 
 # Stop minikube
 > minikube stop
