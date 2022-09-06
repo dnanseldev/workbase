@@ -11,3 +11,9 @@
 
 # Set namespace to context
 > kubectl config set-context --current --namespace=default
+
+# Drivers erros
+>  export LIBVA_DRIVER_NAME=vmwgfx
+# Delete all files in this path
+# ~/.minikube
+
