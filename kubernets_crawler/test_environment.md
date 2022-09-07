@@ -17,3 +17,6 @@
 # Delete all files in this path
 # ~/.minikube
 
+# Clear row data, put this at the end of the command
+# > /dev/null
+
