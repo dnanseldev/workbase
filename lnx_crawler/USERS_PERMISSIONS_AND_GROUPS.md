@@ -17,7 +17,7 @@
  $ logout
 
 # Change a owner from a file or a folder
- $ chown newuser file_name.txt | chown -R newuser /folder_name 
+ $ chown newuser file_name.txt | chown -R newuser /folder_name
 
 # ------------- Groups ---------------
 # Add Groups
@@ -29,7 +29,7 @@
 # Include a User in a Group
  $ sudo adduser user_name group_name |
  $ sudo usermod -aG group_name user_name
- 
+
 
 # Remove a User from a Group
  $ sudo deluser username group_name
@@ -65,7 +65,7 @@
    r + x = 5
    r = 4
    w + x = 3
-   
+
 
 # Symbol meaning
 -->
@@ -82,9 +82,8 @@
 # Ex: All permissions to owner, 0 to group and 0 to all
  $ sudo chmod 700 foldername/ -R
 
+# Execute shell script
+> chmod a+x file_name.sh;
+
 # Changing a folder or a file to a new group
  $ sudo chgrp group_name folder_name/ -R | sudo chgrp group_name file_name
-
-
-   
-
