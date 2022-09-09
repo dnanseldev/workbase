@@ -63,3 +63,5 @@
 $ printenv PATH
 <path>:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
+# List all exported Variables
+> export -p
