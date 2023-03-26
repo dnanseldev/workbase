@@ -1,0 +1,11 @@
+# Create a symb
+ $ ln -s file_origin link_name
+ ex: ln -s /Users/jessicawilkins/Music ~/my_music
+
+# Remove
+ $ rm file_link
+ $ unlink file_link
+
+# Overwright a file_link
+ $ ln -sf old_file_link new_file_link
+
