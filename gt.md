@@ -1,6 +1,2 @@
 #Current
-$echo  'k' | base64
-Z2hwX1R4UjN5dFFacXVNQVJscGt0MjlYV0ZRQ0Z6SDdwZDE4bE5RWAo=
-$echo  'k' | base64 --decode
-
-
+$ echo Z2hwX0xIVkoxV1h0NkxaRDdhTWQwa3NVbGUwclVsczJKczE3Mm8xTSANCg | base64 --decode
